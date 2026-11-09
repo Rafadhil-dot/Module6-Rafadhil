@@ -18,9 +18,7 @@ console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS ${nilaiUas}`);
 const hitungRataRata = (tugas, uts, uas) => (tugas + uts + uas) / 3;
 
 function predikat(nilai) {
-  if (nilai >= 100) {
-    return "SSS+"; 
-  } else if (nilai >= 90) {
+  if (nilai >= 90) {
     return "A";
   } else if (nilai >= 80) {
     return "B";

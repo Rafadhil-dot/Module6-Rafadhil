@@ -420,6 +420,46 @@ body.light-mode .modal-skill-info {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    .site-navigation {
+        gap: 4px;
+        padding: 6px;
+    }
+
+    .nav-link {
+        padding: 9px 10px;
+    }
+
+    .btn-tema {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+
+    .profile-card,
+    .projects-card {
+        padding: 18px;
+    }
+
+    .student-name {
+        font-size: 20px;
+        overflow-wrap: anywhere;
+    }
+
+    .project-item {
+        padding: 16px;
+    }
+
+    .modal-box {
+        max-height: calc(100vh - 24px);
+        overflow-y: auto;
+        padding: 24px 18px;
+    }
+}
+
 @media screen and (min-width: 680px) {
     .projects-card {
         padding: 36px;
